@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <h1 class="text-center">Address Book</h1>
+        <div class="row needs-validation justify-content-lg-center pt-2">
+          <legend class="col-form-label col-lg-4">Check a User Type :</legend>
+          <div class="form-check form-check-inline col-lg-3">
+            <input
+              class="form-check-input radioBtns"
+              type="radio"
+              name="schoolRoles"
+              id="teacherOpt"
+              value="teacherOpt"
+              required
+            />
+            <label class="form-check-label" for="teacherOpt">Teacher</label>
+          </div>
+          <div class="form-check form-check-inline col-lg-3">
+            <input
+              class="form-check-input radioBtns"
+              type="radio"
+              name="schoolRoles"
+              id="studentOpt"
+              value="studentOpt"
+              required
+            />
+            <label class="form-check-label" for="studentOpt">Student</label>
+          </div>
+        </div>
+        <div class="row justify-content-lg-center py-2">
+          <div class="col col-lg-2">
+            <button
+              id="displayBtn"
+              type="submit"
+              class="btn btn-primary btn-lg preventDisplayBtn"
+            >
+              Display
+            </button>
+          </div>
+          <div class="col col-lg-2">
+            <button
+              id="resetBtn"
+              type="submit"
+              class="btn btn-secondary btn-lg"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+        <div
+          id="displayList"
+          class="row row-cols-1 row-cols-lg-4 row-cols-md-3 g-4 justify-content-lg-center py-1"
+        ></div>
+
+        <!---  Continue here... for search and display filtered   -->
+        <div id="searchList" class="row justify-content-lg-center py-1"></div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script type="module" src="js/script.js"></script>
+    <!-- <script src="./teacher-data.json"></script>
+    <script src="./student-data.json"></script> -->
+  </body>
+</html>

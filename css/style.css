@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+.scene {
+  width: 200px;
+  height: 350px;
+  perspective: 600px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s;
+}
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg) !important;
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card__face--front {
+  background-color: blueviolet;
+}
+
+.card__face--back {
+  background-color: palevioletred;
+  transform: rotateY(180deg);
+}

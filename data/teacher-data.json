@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Hasrul",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Marco",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Lindsay",
+    "img": "./img/img1.jpg",
+    "gender": "Female",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Christine",
+    "img": "./img/img1.jpg",
+    "gender": "Female",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Michael",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Lee",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Mohammad",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Kavitha",
+    "img": "./img/img1.jpg",
+    "gender": "Female",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Tan Xin Ling",
+    "img": "./img/img1.jpg",
+    "gender": "Female",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Alex",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Jake",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Robertson",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Peter",
+    "img": "./img/img1.jpg",
+    "gender": "Male",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  },
+  {
+    "name": "Jennifer",
+    "img": "./img/img1.jpg",
+    "gender": "Female",
+    "department": 88,
+    "address": 87,
+    "phone_number": 78
+  }
+]
